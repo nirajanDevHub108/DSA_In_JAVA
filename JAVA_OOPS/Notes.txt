@@ -91,3 +91,23 @@ class Example {
         obj.display(5, 10);
     }
 }
+
+Constructors:
+In Object-Oriented Programming (OOP) in Java, a constructor is a special type of method used to initialize objects. It is called automatically when an object of a class is created. The constructor's main role is to set initial values for the object's attributes and perform any necessary setup tasks. Key Points:
+
+Same Name as Class: A constructor has the same name as the class it belongs to.
+No Return Type: Constructors do not have a return type, not even void.
+Called Automatically: When an object is created using the new keyword, the constructor is called automatically.
+Types of Constructors: Java provides two types of constructors: Default Constructor and Parameterized Constructor.
+Types of Constructors:
+Default Constructor: A default constructor is a constructor that has no parameters. If no constructor is defined in a class, Java automatically provides a default constructor that initializes object fields to their default values
+Parameterized Constructor: A parameterized constructor allows passing arguments to the constructor so that specific values can be assigned to object attributes at the time of creation.
+Note: In Java, a class can have multiple constructors, a concept known as constructor overloading. This allows the class to have different constructors with varying parameters. Each constructor can perform different initializations based on the number or type of arguments passed during object creation.
+Encapsulation:
+Encapsulation is one of the core concepts of Object-Oriented Programming (OOP). It refers to the practice of bundling data (variables) and methods (functions) that operate on the data into a single unit, known as a class, and restricting direct access to the data from outside the class.
+
+Key Points:
+
+Data Hiding: Encapsulation hides the internal details of how an object works. The object's data is kept private and can only be accessed or modified through methods (getters and setters).
+Controlled Access: Through encapsulation, only specific methods are provided to access or modify the data, ensuring more controlled and secure interactions with the object's data.
+For example:
