@@ -14,3 +14,28 @@ private: Declaring something as private restricts its access to within the class
 protected: A protected entity is accessible within its own package and by subclasses.
 If no access specifier is used, Java assigns a default access level, known as package-private, meaning the class or method is accessible only within its own package.
 
+main method role and its components explanation
+
+class Basics {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+The main method is the entry point for any Java program. It is the method that the Java Virtual Machine (JVM) calls to start the execution of a program. 
+The main method must be declared as public, static, and void, and it must accept an array of strings as an argument.
+
+Let us understand this code snippet piecewise.
+
+Basics(Class Name): In the code snippet, the class name is "Basics" which must resemble the name of the Java file for proper execution.
+
+Main method: The main method in Java serves as the entry point for any Java application. The Java runtime starts the execution of a program with the main method.
+
+public (Access Specifier): In the code snippet, the access specifier given to the main class is public allowing it to be accessed from anywhere in the program.
+
+static Keyword: The static keyword is crucial because it allows the Java Virtual Machine (JVM) to call the main method without creating an instance of the class. This is necessary because the main method is executed before any objects of the class are created.
+
+void: This represents the return type of the main method. It is kept void if nothing is returned from the function.
+
+String[] args: This is required to store the Command Line Inputs (if passed) when executing the JAVA program using a Command Line.
+
+Statement: A statement to print "Hello World" is added inside the main method.
