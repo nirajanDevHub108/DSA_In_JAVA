@@ -1,0 +1,15 @@
+Introuction
+Object-Oriented Programming, often abbreviated as OOP, is a programming paradigm based on the concept of Classes and Objects, which can contain data and code to manipulate that data. Understanding OOP is vital as it allows for more organized, modular, and reusable code, which is particularly important when dealing with complex problems in Data Structures and Algorithms.
+
+Classes and Objects
+Class: In Java, a class serves as a blueprint or a template for creating objects. A class encapsulates data for the object and methods to manipulate that data. Code in Java is typically defined within a class, as Java is an object-oriented programming language, which means that almost everything revolves around the concept of objects and classes.
+
+Object: An object is an instance of a class. When a class is defined, no memory is allocated or action performed until an object is created from that class. An object is a real-world entity that represents the specific instance of the blueprint (class). It holds actual data in the form of attributes and can perform actions using the methods defined in the class.
+
+Access Specifiers:
+Access specifiers in Java determine the visibility and accessibility of classes, methods, and variables. The most common access specifiers are:
+
+public: When a class or method is declared as public, it is accessible from anywhere in the program.
+private: Declaring something as private restricts its access to within the class it is declared in.
+protected: A protected entity is accessible within its own package and by subclasses.
+If no access specifier is used, Java assigns a default access level, known as package-private, meaning the class or method is accessible only within its own package.
