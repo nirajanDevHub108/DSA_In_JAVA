@@ -1,3 +1,4 @@
+package JAVA_OOPS;
 class test{
     public static void PrintTest() {
         System.out.println("Hello, World!");
