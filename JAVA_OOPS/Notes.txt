@@ -39,3 +39,41 @@ void: This represents the return type of the main method. It is kept void if not
 String[] args: This is required to store the Command Line Inputs (if passed) when executing the JAVA program using a Command Line.
 
 Statement: A statement to print "Hello World" is added inside the main method.
+
+Static Methods:
+A static method belongs to the class rather than any instance of the class. 
+This allows for calling a static method directly using the class name without the need to create an object. For example:
+
+class Example {
+    static void display() {
+        System.out.println("Static Method");
+    }
+    public static void main(String[] args) {
+        display();
+    }
+}
+In the code snippet above, the display() method is declared as static.
+This allows the main method to call the display() method directly using the class name Example without creating an object of the class.
+
+Creating and Using Objects:
+In Java, objects are instances(copies) of classes. To access non-static methods, 
+an object of the class must be created using the new keyword, followed by the class constructor. For example:
+
+ClassName objName = new ClassName();
+
+example
+package JAVA_OOPS;
+ class test{
+    //paramaterized method to return sum of two numbers
+    public  int sum(int a, int b){
+        return a+b;
+    }
+ }
+ class sum {
+    public static void main(String[] args) {
+        test test1= new test();
+        System.out.println(test1.sum(5, 6));
+    }
+    
+}
+here test class is created and object of test class is created in sum class and sum method is called using object of test class.
