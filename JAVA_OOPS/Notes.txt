@@ -13,3 +13,4 @@ public: When a class or method is declared as public, it is accessible from anyw
 private: Declaring something as private restricts its access to within the class it is declared in.
 protected: A protected entity is accessible within its own package and by subclasses.
 If no access specifier is used, Java assigns a default access level, known as package-private, meaning the class or method is accessible only within its own package.
+
