@@ -1,10 +1,9 @@
 package LinkiedList;
 
 public class Node {
-    int value; // value of linkied list
-    Node next;//pointer to a node 
+      public static void main(String[] args) {
+         
+        LinkiedList myLinkiedList = new LinkiedList(4);
     
-    Node(int value){
-        this.value = value;
-    }
+      }
 }
