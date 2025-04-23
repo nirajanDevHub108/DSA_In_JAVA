@@ -5,5 +5,6 @@ public class Node {
          
         LinkiedList myLinkiedList = new LinkiedList(4);
     
+        System.out.println(myLinkiedList);
       }
 }
