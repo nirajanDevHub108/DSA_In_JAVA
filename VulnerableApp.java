@@ -16,9 +16,10 @@ public class VulnerableApp extends HttpServlet {
         String username = request.getParameter("username");
         try {
             Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
-            Statement stmt = conn.createStatement();
-            String query = "SELECT * FROM users WHERE username = '" + username + "'";
-            ResultSet rs = stmt.executeQuery(query);
+            String query = "SELECT * FROM users WHERE username = ?";
+            PreparedStatement stmt = conn.prepareStatement(query);
+            stmt.setString(1, username);
+            ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
                 out.println("User: " + rs.getString("username"));
             }
