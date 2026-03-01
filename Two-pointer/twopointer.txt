@@ -1,2 +1,4 @@
 it is used in array or linkied list 
 array must be sorted or sort it 
+10,20,30,40,50
+i=o j=arr.length-1
