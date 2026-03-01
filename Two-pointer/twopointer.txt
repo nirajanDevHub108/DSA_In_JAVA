@@ -1,0 +1,2 @@
+it is used in array or linkied list 
+array must be sorted or sort it 
