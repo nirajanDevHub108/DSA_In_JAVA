@@ -1,3 +1,4 @@
+package ArrayArrayList;
 import java.util.ArrayList;
 
 // Class name MUST match the filename: getAlternateElement.java
