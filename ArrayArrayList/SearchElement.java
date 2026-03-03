@@ -1,3 +1,5 @@
+
+package ArrayArrayList;
 import java.util.Arrays;
 
 public class SearchElement {
